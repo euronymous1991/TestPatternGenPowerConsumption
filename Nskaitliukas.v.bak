@@ -1,0 +1,20 @@
+module Nskaitliukas(matuojamas_signalas,clk,rez);
+
+parameter size=10;
+input matuojamas_signalas,clk;
+output reg [size-1:0] rez;
+reg [size-1:0] rez_tarp;
+
+
+
+always @(posedge clk) begin
+ if (matuojamas_signalas) begin
+ rez_tarp=rez_tarp+1; 
+ end
+ else begin 
+ rez_tarp=0; //nulinimas
+ end
+
+end
+
+endmodule 

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Dec 21 11:30:13 2016
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : testpat
+Top-level Entity Name : testpat
+Family : Cyclone III
+Device : EP3C25F324C6
+Timing Models : Final
+Total logic elements : 357 / 24,624 ( 1 % )
+    Total combinational functions : 349 / 24,624 ( 1 % )
+    Dedicated logic registers : 139 / 24,624 ( < 1 % )
+Total registers : 139
+Total pins : 68 / 216 ( 31 % )
+Total virtual pins : 0
+Total memory bits : 0 / 608,256 ( 0 % )
+Embedded Multiplier 9-bit elements : 10 / 132 ( 8 % )
+Total PLLs : 0 / 4 ( 0 % )

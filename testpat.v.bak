@@ -1,0 +1,37 @@
+// test pattern generator
+module testpat(input clk, input rst, output reg Data);
+//reg Data;
+
+// internal signals
+reg [3:0] cnt; //shift register
+reg [7:0] TestValue;
+
+initial
+begin
+cnt=0;
+TestValue=0;
+end
+
+always @(posedge clk or posedge rst)
+begin
+	if (rst==1)
+	begin
+		cnt<=0;
+		TestValue<=0;
+	end
+	else
+	begin
+		if (cnt==7)
+		begin
+			cnt<=0;
+			TestValue<=TestValue+8'd1;
+		end
+		else
+		begin
+			cnt<=cnt+4'd1;
+			Data<=TestValue[cnt];
+		end
+	end
+end
+
+endmodule

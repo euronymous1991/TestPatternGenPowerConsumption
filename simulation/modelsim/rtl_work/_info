@@ -1,0 +1,123 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\433Lab\Desktop\TestPatternGenPowerConsumption\simulation\modelsim
+vCounter
+Ide=Dkb[IYBUC2bQjPen7T1
+VzE]55zQMQXJEHO1EGZk6=0
+Z1 dC:\Users\433Lab\Desktop\TestPatternGenPowerConsumption\simulation\modelsim
+w1465819242
+8C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/Counter.v
+FC:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/Counter.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption -O0
+n@counter
+!i10b 1
+!s100 9NGcBe0hJbHAgFDzI=SOA2
+!s85 0
+!s108 1475764824.387000
+!s107 C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/Counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption|C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/Counter.v|
+!s101 -O0
+vRing_oscillator
+If<;Ie>X^OlT<7O?RML4?@3
+V6zMEQb6hR;Q1KWW5SPihl2
+R1
+w1465826214
+8C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/Ring_oscillator.v
+FC:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/Ring_oscillator.v
+L0 2
+R2
+r1
+31
+R3
+n@ring_oscillator
+R4
+!i10b 1
+!s100 ceIgT?O_[FcocG?1O5;C_0
+!s85 0
+!s108 1475764824.138000
+!s107 C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/Ring_oscillator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption|C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/Ring_oscillator.v|
+!s101 -O0
+vTDC_result
+IVXL[zJbcf`ealoAV6lc7X3
+VK6]VQK[WZ7G=^3RLE3JNh1
+R1
+w1468407151
+8C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/TDC_result.v
+FC:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/TDC_result.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@t@d@c_result
+!i10b 1
+!s100 nZgTR>N:an>NZ>N;kP8Co2
+!s85 0
+!s108 1475764824.518000
+!s107 C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/TDC_result.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption|C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/TDC_result.v|
+!s101 -O0
+vtestpat_tb
+!i10b 1
+!s100 I7UGA>RZ9:C>T61gHGMNz0
+I0PX<]5g^j7dgH2T]5NX=U0
+V^=Y=CA^:hZ:7W4M=2H@kO1
+R1
+w1475756268
+8C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/testpat_tb.v
+FC:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/testpat_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1475764825.676000
+!s107 C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/testpat_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption|C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/testpat_tb.v|
+!s101 -O0
+R3
+R4
+Evienas
+Z5 w1456235028
+Z6 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z7 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R1
+Z8 8C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/vienas.vhd
+Z9 FC:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/vienas.vhd
+l0
+L42
+VM5;?AOjXI8f?5K<?gDme^1
+Z10 OV;C;10.1d;51
+31
+Z11 !s108 1475764825.199000
+Z12 !s90 -reportprogress|300|-93|-work|work|C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/vienas.vhd|
+Z13 !s107 C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/vienas.vhd|
+Z14 o-93 -work work -O0
+Z15 tExplicit 1
+!s100 5ANXI5LJ6GkgVZSDA54ff3
+!i10b 1
+Asyn
+R6
+R7
+DEx4 work 6 vienas 0 22 M5;?AOjXI8f?5K<?gDme^1
+l68
+L50
+VP9SNDS;Sb65:ce=12hG>b0
+R10
+31
+R11
+R12
+R13
+R14
+R15
+!s100 QN;8CNg`ZBTQ^81B1zT?L2
+!i10b 1

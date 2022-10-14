@@ -1,0 +1,10 @@
+PLL_Name	atraminis:inst2|altpll:altpll_component|atraminis_altpll:auto_generated|pll1
+PLLJITTER	30
+PLLSPEmax	84
+PLLSPEmin	-53
+
+PLL_Name	matuojamas:inst1|altpll:altpll_component|matuojamas_altpll1:auto_generated|pll1
+PLLJITTER	50
+PLLSPEmax	84
+PLLSPEmin	-53
+

@@ -1,0 +1,6 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,TDC_result:inst1|lpm_mult:Mult1|mult_aft:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,TDC_result:inst1|lpm_mult:Mult0|mult_cft:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,TDC_result:inst1|lpm_mult:Mult1|mult_aft:auto_generated|mac_out4,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,TDC_result:inst1|lpm_mult:Mult0|mult_cft:auto_generated|mac_out4,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,TDC_result:inst1|lpm_mult:Mult0|mult_cft:auto_generated|mac_out6,

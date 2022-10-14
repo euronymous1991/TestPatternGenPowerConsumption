@@ -1,0 +1,190 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\433Lab\Desktop\TestPatternGenPowerConsumption\simulation\modelsim
+vCounter
+I0nFm=]Ccz10h0GaklO3T63
+V>F0V9jHNAfI3<iH_f=UIX2
+Z1 dC:\Users\433Lab\Desktop\TestPatternGenPowerConsumption\simulation\modelsim
+Z2 w1482312627
+Z3 8testpat_6_1200mv_85c_slow.vo
+Z4 Ftestpat_6_1200mv_85c_slow.vo
+L0 1721
+Z5 OV;L;10.1d;51
+r1
+31
+Z6 !s108 1482313970.453000
+Z7 !s107 testpat_6_1200mv_85c_slow.vo|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|testpat_6_1200mv_85c_slow.vo|
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+. -O0
+n@counter
+!i10b 1
+!s100 TTIgIz^aKfT?1N[cH^<Cz2
+!s85 0
+!s101 -O0
+vCounter_1
+I^o]Tg[b1>H^FMFl_?cMC]1
+VBj]V;1A7m2eVRa>T?6>S03
+R1
+R2
+R3
+R4
+L0 4545
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@counter_1
+!i10b 1
+!s100 >f;RiXd]5g@U=`MPjBgZ^2
+!s85 0
+!s101 -O0
+vCounter_2
+IG^U[og:0[H6WV<i_=mlN83
+V=iXmfABlfe0:gVa^WIIS91
+R1
+R2
+R3
+R4
+L0 7364
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@counter_2
+!i10b 1
+!s100 _Q6<WQ5[IPO?Eg_<4[6BE0
+!s85 0
+!s101 -O0
+vRing_oscillator
+IdW>03i27k6W^ZA;]Wk_1D1
+Vz2JZZH1zHPLIWZ6Kz]?jF3
+R1
+R2
+R3
+R4
+L0 10183
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@ring_oscillator
+!i10b 1
+!s100 bkoTnmYLLWWM:9FU69?`n3
+!s85 0
+!s101 -O0
+vstart_stop
+Id9:jBABWmUe<EU2a=c4]l1
+VY@Hmj@2LAD6iJQYLKQ3k]1
+R1
+R2
+R3
+R4
+L0 10491
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 Ukhcg:JaK<]ajX7cVIbcQ1
+!s85 0
+!s101 -O0
+vsystem_reset
+IhUYFT^WIPUR2`Ln`4a7iU0
+VKL7YdNTU]7fR<=7bBSoI<0
+R1
+R2
+R3
+R4
+L0 10759
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 hXl_PfSIo8GjVLC[b?LYd2
+!s85 0
+!s101 -O0
+vTDC_result
+Ik;z;VYmDCzclh:LL@j8gd3
+VK8WOj5C14<03Q7NWdkY@b3
+R1
+R2
+R3
+R4
+L0 11031
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@t@d@c_result
+!i10b 1
+!s100 z=Yfi>El8<T3hIji81hO01
+!s85 0
+!s101 -O0
+vtestpat
+IRIlROij4JGK9Gi3mYHI<P0
+VT:of:<?lamdB=;HI0^XRK1
+R1
+R2
+R3
+R4
+L0 31
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 I_OD06U91SgNLCNSBJ?IY3
+!s85 0
+!s101 -O0
+vtestpat_tb
+!i10b 1
+!s100 I7UGA>RZ9:C>T61gHGMNz0
+I0PX<]5g^j7dgH2T]5NX=U0
+V^=Y=CA^:hZ:7W4M=2H@kO1
+R1
+w1475752668
+8C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/testpat_tb.v
+FC:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/testpat_tb.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1482313972.086000
+!s107 C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/testpat_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption|C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/testpat_tb.v|
+!s101 -O0
+R9
+!s92 -vlog01compat -work work +incdir+C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption -O0

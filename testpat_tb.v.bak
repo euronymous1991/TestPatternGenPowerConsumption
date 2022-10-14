@@ -1,0 +1,26 @@
+module testpat_tb();
+
+reg clk_sig;
+reg rst_sig;
+wire Data_sig; 
+
+testpat testpat_inst
+(
+	.clk(clk_sig) ,	// input  clk_sig
+	.rst(rst_sig) ,	// input  rst_sig
+	.Data(Data_sig) 	// output  Data_sig
+);
+
+initial
+begin
+rst_sig=0;
+clk_sig=0;
+end
+
+always 
+begin
+#20 clk_sig=!clk_sig;
+end
+
+endmodule
+

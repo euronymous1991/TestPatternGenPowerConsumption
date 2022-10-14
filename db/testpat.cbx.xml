@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="testpat">
+		<CBX_INST_ENTRY INSTANCE_NAME="|testpat|TDC_result:inst1|lpm_mult:Mult0" CBX_FILE_NAME="mult_cft.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|testpat|TDC_result:inst1|lpm_mult:Mult1" CBX_FILE_NAME="mult_aft.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|testpat|start_stop:inst7|vienas:inst20|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_4e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|testpat|vienas:inst|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_4e6.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,197 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'system_reset:inst123123|enable_tdc'
+Slack : -8.428
+TNS   : -208.864
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -2.699
+TNS   : -86.519
+
+Type  : Slow 1200mV 85C Model Setup 'STOP'
+Slack : -0.453
+TNS   : -0.453
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : -0.163
+TNS   : -0.163
+
+Type  : Slow 1200mV 85C Model Hold 'STOP'
+Slack : 0.960
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'system_reset:inst123123|enable_tdc'
+Slack : 1.166
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'CLOCK_50'
+Slack : -0.738
+TNS   : -22.802
+
+Type  : Slow 1200mV 85C Model Recovery 'STOP'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'START'
+Slack : 0.854
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'START'
+Slack : -0.818
+TNS   : -0.818
+
+Type  : Slow 1200mV 85C Model Removal 'STOP'
+Slack : -0.345
+TNS   : -0.345
+
+Type  : Slow 1200mV 85C Model Removal 'CLOCK_50'
+Slack : -0.342
+TNS   : -0.684
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -42.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'START'
+Slack : -3.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'STOP'
+Slack : -3.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'system_reset:inst123123|enable_tdc'
+Slack : -1.000
+TNS   : -32.000
+
+Type  : Slow 1200mV 0C Model Setup 'system_reset:inst123123|enable_tdc'
+Slack : -7.425
+TNS   : -183.300
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -2.314
+TNS   : -73.644
+
+Type  : Slow 1200mV 0C Model Setup 'STOP'
+Slack : -0.271
+TNS   : -0.271
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : -0.123
+TNS   : -0.123
+
+Type  : Slow 1200mV 0C Model Hold 'STOP'
+Slack : 0.826
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'system_reset:inst123123|enable_tdc'
+Slack : 1.117
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'CLOCK_50'
+Slack : -0.559
+TNS   : -16.941
+
+Type  : Slow 1200mV 0C Model Recovery 'STOP'
+Slack : 0.528
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'START'
+Slack : 0.906
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'START'
+Slack : -0.826
+TNS   : -0.826
+
+Type  : Slow 1200mV 0C Model Removal 'STOP'
+Slack : -0.436
+TNS   : -0.436
+
+Type  : Slow 1200mV 0C Model Removal 'CLOCK_50'
+Slack : -0.381
+TNS   : -0.762
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -42.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'START'
+Slack : -3.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'STOP'
+Slack : -3.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'system_reset:inst123123|enable_tdc'
+Slack : -1.000
+TNS   : -32.000
+
+Type  : Fast 1200mV 0C Model Setup 'system_reset:inst123123|enable_tdc'
+Slack : -4.270
+TNS   : -104.298
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -1.077
+TNS   : -33.077
+
+Type  : Fast 1200mV 0C Model Setup 'STOP'
+Slack : 0.085
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : -0.147
+TNS   : -0.147
+
+Type  : Fast 1200mV 0C Model Hold 'system_reset:inst123123|enable_tdc'
+Slack : 0.572
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'STOP'
+Slack : 0.614
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'CLOCK_50'
+Slack : -0.012
+TNS   : -0.204
+
+Type  : Fast 1200mV 0C Model Recovery 'STOP'
+Slack : 0.338
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'START'
+Slack : 0.705
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'START'
+Slack : -0.506
+TNS   : -0.506
+
+Type  : Fast 1200mV 0C Model Removal 'CLOCK_50'
+Slack : -0.178
+TNS   : -0.356
+
+Type  : Fast 1200mV 0C Model Removal 'STOP'
+Slack : -0.128
+TNS   : -0.128
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -44.300
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'STOP'
+Slack : -3.000
+TNS   : -4.127
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'START'
+Slack : -3.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'system_reset:inst123123|enable_tdc'
+Slack : -1.000
+TNS   : -32.000
+
+------------------------------------------------------------

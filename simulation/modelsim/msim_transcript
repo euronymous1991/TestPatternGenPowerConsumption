@@ -1,0 +1,107 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do testpat_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {testpat_6_1200mv_85c_slow.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module testpat
+# -- Compiling module Counter
+# -- Compiling module Counter_1
+# -- Compiling module Counter_2
+# -- Compiling module Ring_oscillator
+# -- Compiling module start_stop
+# -- Compiling module system_reset
+# -- Compiling module TDC_result
+# 
+# Top level modules:
+# 	testpat
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption {C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/testpat_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module testpat_tb
+# 
+# Top level modules:
+# 	testpat_tb
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneiii_ver -L gate_work -L work -voptargs="+acc"  testpat_tb
+# vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneiii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps testpat_tb 
+# Loading work.testpat_tb
+# Loading work.testpat
+# Loading work.TDC_result
+# Loading cycloneiii_ver.cycloneiii_routing_wire
+# Loading cycloneiii_ver.cycloneiii_mac_out
+# Loading cycloneiii_ver.cycloneiii_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneiii_ver.cycloneiii_mac_mult
+# Loading cycloneiii_ver.cycloneiii_mac_data_reg
+# Loading cycloneiii_ver.cycloneiii_mac_sign_reg
+# Loading cycloneiii_ver.cycloneiii_mac_mult_internal
+# Loading work.Counter_1
+# Loading work.Counter
+# Loading work.Ring_oscillator
+# Loading cycloneiii_ver.cycloneiii_clkctrl
+# Loading cycloneiii_ver.cycloneiii_mux41
+# Loading cycloneiii_ver.cycloneiii_ena_reg
+# Loading work.system_reset
+# Loading work.start_stop
+# Loading work.Counter_2
+# Loading cycloneiii_ver.cycloneiii_io_ibuf
+# Loading cycloneiii_ver.cycloneiii_io_obuf
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from testpat_6_1200mv_85c_v_slow.sdo
+# ** Warning: (vsim-3017) C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/testpat_tb.v(26): [TFMPC] - Too few port connections. Expected 6, found 5.
+# 
+#         Region: /testpat_tb/testpat_inst
+# ** Warning: (vsim-3722) C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/testpat_tb.v(26): [TFMPC] - Missing connection for port 'Laikagfhf'.
+# 
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: (vsim-8607) C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneiii_atoms.v(6154): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneiii_atoms.v(6155): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneiii_atoms.v(6154): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneiii_atoms.v(6155): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneiii_atoms.v(6154): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneiii_atoms.v(6155): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneiii_atoms.v(6154): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneiii_atoms.v(6155): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneiii_atoms.v(6154): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneiii_atoms.v(6155): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# Loading timing data from testpat_6_1200mv_85c_v_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testpat_tb File: C:/Users/433Lab/Desktop/TestPatternGenPowerConsumption/testpat_tb.v
+# 
+# source testpat_dump_all_vcd_nodes.tcl
+# 0
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Vytautas  Hostname: DESKTOP-MB3NQR7  ProcessID: 8748
+# 
+#           Attempting to use alternate WLF file "./wlftm6m5xe".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftm6m5xe
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 100 us
